@@ -3,6 +3,7 @@ font-family: 'Poppins', sans-serif; */
 
 :root {
   --branding-color: #6c63ff;
+  --primary-color: #272142;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -37,7 +38,6 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
-  color: rgba(39, 33, 66, 0.7);
 }
 
 .hero {
@@ -52,6 +52,7 @@ p {
   font-style: normal;
   line-height: 54px;
   margin: 0;
+  color: var(--primary-color);
 }
 
 .hero h2 {
@@ -60,7 +61,7 @@ p {
   font-style: normal;
   font-size: 24px;
   line-height: 36px;
-  color: #272142;
+  color: var(--primary-color);
 }
 
 .btn-branding {
@@ -83,6 +84,10 @@ p {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.project-description p {
+  color: rgba(39, 33, 66, 0.7);
 }
 
 @media (max-width: 900px) {
