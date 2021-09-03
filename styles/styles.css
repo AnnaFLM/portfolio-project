@@ -90,6 +90,36 @@ p {
   color: rgba(39, 33, 66, 0.7);
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav li.active a {
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--branding-color);
+}
+
 .content-container {
   padding: 120px 60px;
 }
@@ -141,10 +171,8 @@ p {
     padding: 0;
     text-align: center;
   }
-}
-img {
-  width: 560px;
-  height: 560px;
-  left: 740px;
-  top: 239px;
+
+  nav a {
+    font-size: 14px;
+  }
 }
