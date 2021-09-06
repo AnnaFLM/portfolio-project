@@ -166,6 +166,14 @@ nav a:hover {
   border-radius: 50%;
 }
 
+.icon {
+  text-align: center;
+}
+
+.skills {
+  padding: 20;
+}
+
 footer {
   margin: 60px 0;
 }
