@@ -168,14 +168,11 @@ nav a:hover {
 
 .icon {
   text-align: center;
-}
-
-.skills {
-  padding: 20;
+  padding: 10px;
 }
 
 footer {
-  margin: 60px 0;
+  margin: 120px 0;
 }
 
 footer .contact-box {
